@@ -35,5 +35,4 @@ The API is a dead basic node.js/express server. Clone the repo and run the follo
 
 ```
 localhost:7000/todos
-
 ```
