@@ -5,7 +5,7 @@ const TodoItem = ({ id, title, completed }) => {
 		<li className={`list-group-item ${completed && 'list-group-item-success'}`}>
 			<div className='d-flex justify-content-between'>
 				<span className='d-flex align-items-center'>
-					<input type='checkbox' className='mr-3' checked={completed}></input>
+					<input type='checkbox' className='mr-3' checked={completed} onChange={() => console.log('checked')} />
 					{title}
 				</span>
 				<button className='btn btn-danger'>Delete</button>
